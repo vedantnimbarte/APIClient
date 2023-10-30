@@ -1,0 +1,35 @@
+{
+  "name": "apiclient",
+  "version": "1.0.0",
+  "description": "APIClient - Flexible API Client for JavaScript",
+  "main": "build/index.js",
+  "types": "src/types.ts",
+  "scripts": {
+    "start": "npm run build && node ./build/index.js",
+    "start:dev": "nodemon",
+    "build": "rimraf ./build && tsc",
+    "lint": "eslint src/**/*",
+    "lint:fix": "eslint src/**/* --fix",
+    "format": "prettier --write src/**/*",
+    "prepare": "husky install",
+    "postinstall": "npm run prepare"
+  },
+  "keywords": [],
+  "author": "Vedant Nimbarte <nimbartevedant@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.9",
+    "@typescript-eslint/eslint-plugin": "^6.9.0",
+    "@typescript-eslint/parser": "^6.9.0",
+    "eslint": "^8.52.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.0.2",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
