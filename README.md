@@ -9,13 +9,13 @@ This package provides a simple and consistent interface for making HTTP requests
 You can install this package via npm:
 
 ```bash
-npm install @vedantnimbarte/http-client
+npm install @vedantnimbarte/api-client
 ```
 
 ## Usage
 
 ```javascript
-import { HttpClient } from '@your-package/http-client';
+import { HttpClient } from '@vedantnimbarte/api-client';
 
 // Instantiate the HttpClient
 const httpClient = HttpClient.getInstance();

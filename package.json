@@ -1,5 +1,5 @@
 {
-  "name": "apiclient",
+  "name": "@vedantnimbarte/api-client",
   "version": "1.0.0",
   "description": "APIClient - Flexible API Client for JavaScript",
   "main": "build/index.js",
